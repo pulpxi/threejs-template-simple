@@ -1,10 +1,13 @@
-import './style.css'
-import * as THREE from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
+import './style.css';
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { GUI } from 'dat.gui'
 
-/**
- * Base
- */
+
+
+// Dat GUI
+const gui = new GUI();
+
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
 
